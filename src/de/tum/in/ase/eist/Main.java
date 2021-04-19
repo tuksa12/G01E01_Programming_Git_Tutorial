@@ -14,7 +14,7 @@ public final class Main {
 
 
         Student student = new Student("01234567", "John Doe", 42);
-        Course course = new OnlineCourse();
+        OnlineCourse course = new OnlineCourse();
         course.setTitle("EIST");
 
         student.study(course);
