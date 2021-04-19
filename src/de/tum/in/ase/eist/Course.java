@@ -7,7 +7,7 @@ import java.util.List;
 // TODO 2: Implement OnlineCourse
 // TODO 3: Implement UniversityCourse
 
-public class Course {
+public abstract class Course {
 
     private String title;
     private String description;
@@ -46,12 +46,8 @@ public class Course {
         this.lectures = lectures;
     }
 
-    public void join() {
-        System.out.println("Successfully joined course: " + title);
-    }
+    public abstract void join();
 
-    public void drop() {
-        System.out.println("Successfully dropped course: " + title);
-    }
+    public abstract void drop();
 
 }
