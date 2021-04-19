@@ -12,12 +12,13 @@ public final class Main {
 		//  1. Uncomment the following code
 		//  2. Change the Course type to OnlineCourse and set its title to "EIST" before the student starts to study
 
-        /*
+
         Student student = new Student("01234567", "John Doe", 42);
-        Course course = new Course();
+        Course course = new OnlineCourse();
+        course.setTitle("EIST");
 
         student.study(course);
-         */
+
 
 	}
 

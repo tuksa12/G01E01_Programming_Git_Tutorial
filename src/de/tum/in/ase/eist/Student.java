@@ -37,7 +37,7 @@ public class Student {
     }
 
     public void study(Course course) {
-
+        course.join();
         // TODO 4: Call the join() method of the passed course
 
     }
